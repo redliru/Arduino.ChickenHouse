@@ -1,21 +1,21 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.30011.22
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31912.275
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Control", "Control.vcxproj", "{C5F80730-F44F-4478-BDAE-6634EFC2CA88}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "RelayModule", "..\..\..\libraries\RelayModule\src\RelayModule.vcxitems", "{8B3DD011-4524-4728-81A3-595904ADAABD}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "EventMatrix", "EventMatrix\src\EventMatrix.vcxitems", "{301FB6DE-C218-417F-8D82-625179D9582F}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "EventMatrix", "..\..\..\libraries\EventMatrix\src\EventMatrix.vcxitems", "{301FB6DE-C218-417F-8D82-625179D9582F}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "RelayModule", "RelayModule\src\RelayModule.vcxitems", "{8B3DD011-4524-4728-81A3-595904ADAABD}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Command", "..\..\..\Libraries\Command\src\Command.vcxitems", "{3C5552AD-17D2-4E87-86E8-B351E98FD221}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Command", "Command\src\Command.vcxitems", "{3C5552AD-17D2-4E87-86E8-B351E98FD221}"
 EndProject
 Global
 	GlobalSection(SharedMSBuildProjectFiles) = preSolution
-		..\..\..\libraries\EventMatrix\src\EventMatrix.vcxitems*{301fb6de-c218-417f-8d82-625179d9582f}*SharedItemsImports = 9
-		..\..\..\Libraries\Command\src\Command.vcxitems*{3c5552ad-17d2-4e87-86e8-b351e98fd221}*SharedItemsImports = 9
-		..\..\..\libraries\RelayModule\src\RelayModule.vcxitems*{8b3dd011-4524-4728-81a3-595904adaabd}*SharedItemsImports = 9
+		EventMatrix\src\EventMatrix.vcxitems*{301fb6de-c218-417f-8d82-625179d9582f}*SharedItemsImports = 9
+		Command\src\Command.vcxitems*{3c5552ad-17d2-4e87-86e8-b351e98fd221}*SharedItemsImports = 9
+		RelayModule\src\RelayModule.vcxitems*{8b3dd011-4524-4728-81a3-595904adaabd}*SharedItemsImports = 9
 	EndGlobalSection
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x86 = Debug|x86
